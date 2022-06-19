@@ -179,7 +179,7 @@ class _AdminPageState extends State<AdminPage> {
                           if (gambarForm == null) {
                             ScaffoldMessenger.of(context).showSnackBar(
                               SnackBar(
-                                content: Text('Tidak Ada File!'),
+                                content: Text('Tidak Ada File!',),
                               ),
                             );
                             return null;
